@@ -1,115 +1,364 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <link rel="icon" sizes="any" href="/favicon.ico"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="mobile-web-app-capable" content="yes"/>
-  <meta name="apple-mobile-web-app-title" content="CloudMoon"/>
-  <meta name="apple-mobile-web-app-capable" content="yes"/>
-  <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="CloudMoon">
+    <meta name="theme-color" content="#0a0e27">
+    <title>Genshin Impact - CloudMoon</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%232a5dda'/><path d='M50 20 Q70 30 70 50 Q70 70 50 80 Q30 70 30 50 Q30 30 50 20' fill='%23fff' opacity='0.3'/></svg>">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-  
-		<link href="../../_app/immutable/assets/0.Dggv73SU.css" rel="stylesheet">
-		<link href="../../_app/immutable/assets/Footer.CjFf867H.css" rel="stylesheet">
-		<link href="../../_app/immutable/assets/4.C-R6wQuM.css" rel="stylesheet">
-		<link rel="modulepreload" href="../../_app/immutable/entry/start.CyFArhgz.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/D8zcuini.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/Bifw0ogz.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/CJghFkAr.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/CZfm6YAs.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/B88EbFpT.js">
-		<link rel="modulepreload" href="../../_app/immutable/entry/app.yJDyIo4F.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/Bzak7iHL.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/CGWj7HQ4.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/CY5JQ6QJ.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/CH-FUDQ3.js">
-		<link rel="modulepreload" href="../../_app/immutable/nodes/0.BWAQz_Fy.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/Ce5dKaFj.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/D9B34gCT.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/C4Prtj0h.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/Do3aPfrO.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/DjefV-tt.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/zYaPGhcH.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/DQznoU6O.js">
-		<link rel="modulepreload" href="../../_app/immutable/nodes/2.DWTvvqHg.js">
-		<link rel="modulepreload" href="../../_app/immutable/nodes/4.BmtgVQpE.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/Ck6ygmGx.js"><!--[--><meta name="keywords" content="Genshin Impact cloud gaming,Genshin Impact no download,Genshin Impact low spec version,Genshin Impact PC version,Genshin Impact web version,Genshin Impact TV version,Genshin Impact emulator,Genshin Impact redeem codes,Genshin Impact guides,Genshin Impact overheating,Genshin Impact Android version,Genshin Impact iOS version,Genshin Impact install failed,Genshin Impact lagging,Genshin Impact storage full,Genshin Impact compatibility issues" class="svelte-19kto5k"/> <meta name="description" content="Play Genshin Impact instantly in browser without downloading. Enjoy lag-free, low latency, and high-quality gaming experience while playing this role playing game." class="svelte-19kto5k"/> <meta property="og:description" content="Play Genshin Impact instantly in browser without downloading. Enjoy lag-free, low latency, and high-quality gaming experience while playing this role playing game." class="svelte-19kto5k"/> <meta name="msapplication-TileColor" content="#1E2831" class="svelte-19kto5k"/> <meta name="theme-color" content="#1E2831" class="svelte-19kto5k"/> <!--[--><link rel="canonical" href="https://web.cloudmoonapp.com/game/com.miHoYo.GenshinImpact/" class="svelte-19kto5k"/> <!----><script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Genshin Impact",
-      "operatingSystem": "Web Browser",
-      "applicationCategory": "Game",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD",
-        "url": "https://web.cloudmoonapp.com/game/com.miHoYo.GenshinImpact/",
-        "availability": "https://schema.org/InStock"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "reviewCount": "47177"
-      },
-      "description": "Genshin Impact is a sprawling action-RPG that invites players into Teyvat — a hand-painted, anime-influenced open world where exploration and elemental combat are front and center. Instead of slow level grinds, the game encourages quick, reactive play: you swap between characters on the fly to trigger elemental reactions, solve environmental puzzles, and chase hidden rewards scattered across a visually rich map.",
-      "image": "https://play-lh.googleusercontent.com/iP2i_f23Z6I-5hoL2okPS4SxOGhj0q61Iyb0Y1m4xdTsbnaCmrjs7xKRnL6o5R4h-Yg=w240-h480-rw",
-      "inLanguage": "en",
-      "publisher": {
-        "@type": "Organization",
-        "name": "CloudMoon"
-      }
-    }
-</script><!----><!--]--> <!--[--><!--[--><link rel="alternate" href="https://web.cloudmoonapp.com/game/com.miHoYo.GenshinImpact/" hreflang="x-default" class="svelte-19kto5k"/> <link rel="alternate" href="https://web.cloudmoonapp.com/game/com.miHoYo.GenshinImpact/" hreflang="en" class="svelte-19kto5k"/><!--]--><!--[!--><link rel="alternate" href="https://web.cloudmoonapp.com/zh/game/com.miHoYo.GenshinImpact/" hreflang="zh" class="svelte-19kto5k"/><!--]--><!--[!--><link rel="alternate" href="https://web.cloudmoonapp.com/es/game/com.miHoYo.GenshinImpact/" hreflang="es" class="svelte-19kto5k"/><!--]--><!--[!--><link rel="alternate" href="https://web.cloudmoonapp.com/pt/game/com.miHoYo.GenshinImpact/" hreflang="pt" class="svelte-19kto5k"/><!--]--><!--[!--><link rel="alternate" href="https://web.cloudmoonapp.com/th/game/com.miHoYo.GenshinImpact/" hreflang="th" class="svelte-19kto5k"/><!--]--><!--[!--><link rel="alternate" href="https://web.cloudmoonapp.com/ms/game/com.miHoYo.GenshinImpact/" hreflang="ms" class="svelte-19kto5k"/><!--]--><!--[!--><link rel="alternate" href="https://web.cloudmoonapp.com/vi/game/com.miHoYo.GenshinImpact/" hreflang="vi" class="svelte-19kto5k"/><!--]--><!--[!--><link rel="alternate" href="https://web.cloudmoonapp.com/id/game/com.miHoYo.GenshinImpact/" hreflang="id" class="svelte-19kto5k"/><!--]--><!--[!--><link rel="alternate" href="https://web.cloudmoonapp.com/hi/game/com.miHoYo.GenshinImpact/" hreflang="hi" class="svelte-19kto5k"/><!--]--><!--[!--><link rel="alternate" href="https://web.cloudmoonapp.com/ja/game/com.miHoYo.GenshinImpact/" hreflang="ja" class="svelte-19kto5k"/><!--]--><!--[!--><link rel="alternate" href="https://web.cloudmoonapp.com/fr/game/com.miHoYo.GenshinImpact/" hreflang="fr" class="svelte-19kto5k"/><!--]--><!--[!--><link rel="alternate" href="https://web.cloudmoonapp.com/de/game/com.miHoYo.GenshinImpact/" hreflang="de" class="svelte-19kto5k"/><!--]--><!--[!--><link rel="alternate" href="https://web.cloudmoonapp.com/ru/game/com.miHoYo.GenshinImpact/" hreflang="ru" class="svelte-19kto5k"/><!--]--><!--[!--><link rel="alternate" href="https://web.cloudmoonapp.com/pl/game/com.miHoYo.GenshinImpact/" hreflang="pl" class="svelte-19kto5k"/><!--]--><!--[!--><link rel="alternate" href="https://web.cloudmoonapp.com/bg/game/com.miHoYo.GenshinImpact/" hreflang="bg" class="svelte-19kto5k"/><!--]--><!--[!--><link rel="alternate" href="https://web.cloudmoonapp.com/it/game/com.miHoYo.GenshinImpact/" hreflang="it" class="svelte-19kto5k"/><!--]--><!--[!--><link rel="alternate" href="https://web.cloudmoonapp.com/tr/game/com.miHoYo.GenshinImpact/" hreflang="tr" class="svelte-19kto5k"/><!--]--><!--[!--><link rel="alternate" href="https://web.cloudmoonapp.com/uk/game/com.miHoYo.GenshinImpact/" hreflang="uk" class="svelte-19kto5k"/><!--]--><!--[!--><link rel="alternate" href="https://web.cloudmoonapp.com/ar/game/com.miHoYo.GenshinImpact/" hreflang="ar" class="svelte-19kto5k"/><!--]--><!--]--><!--]--><title>Play Genshin Impact Online (Browser Games) for Free on PC &amp; Mobile | CloudMoon</title>
+        html, body {
+            width: 100%;
+            height: 100%;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+            background: #0a0e27;
+            color: #e0e0e0;
+        }
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q30NXCCZNN"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-Q30NXCCZNN');
-  </script>
-  <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-    }
-  </style>
+        #app {
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            padding: 16px 20px;
+            background: rgba(10, 14, 39, 0.95);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .back-button {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 12px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 6px;
+            color: #e0e0e0;
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-decoration: none;
+        }
+
+        .back-button:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 18px;
+            font-weight: 700;
+            color: white;
+        }
+
+        .logo-icon {
+            width: 28px;
+            height: 28px;
+            background: linear-gradient(135deg, #2a5dda 0%, #1e3a9a 100%);
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+        }
+
+        .main-content {
+            flex: 1;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            padding: 40px;
+            max-width: 1400px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .game-info-section {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .game-hero {
+            width: 100%;
+            aspect-ratio: 3/4;
+            background: linear-gradient(135deg, #2a5dda 0%, #1e3a9a 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 64px;
+            color: white;
+            box-shadow: 0 20px 60px rgba(42, 93, 218, 0.3);
+        }
+
+        .game-details {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .game-title {
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .game-meta {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .meta-badge {
+            padding: 8px 12px;
+            background: rgba(42, 93, 218, 0.15);
+            border: 1px solid rgba(42, 93, 218, 0.3);
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 500;
+            color: #2a5dda;
+        }
+
+        .game-description {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #b0b0b0;
+        }
+
+        .game-features {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 12px;
+            background: rgba(42, 93, 218, 0.05);
+            border-radius: 8px;
+            border-left: 2px solid #2a5dda;
+        }
+
+        .feature-icon {
+            font-size: 18px;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .feature-text {
+            font-size: 13px;
+            line-height: 1.5;
+        }
+
+        .play-section {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            background: rgba(30, 35, 50, 0.5);
+            padding: 24px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .play-title {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .play-status {
+            padding: 12px;
+            background: rgba(42, 150, 118, 0.1);
+            border: 1px solid rgba(42, 150, 118, 0.3);
+            border-radius: 8px;
+            color: #42d69f;
+            font-size: 13px;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .play-button {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #2a5dda 0%, #1e3a9a 100%);
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .play-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 35px rgba(42, 93, 218, 0.3);
+        }
+
+        .play-button:active {
+            transform: translateY(0);
+        }
+
+        .screenshots {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .screenshots-title {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .screenshot-carousel {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 12px;
+        }
+
+        .screenshot-item {
+            aspect-ratio: 9/16;
+            background: rgba(42, 93, 218, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            color: #707070;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .screenshot-item:hover {
+            border-color: rgba(42, 93, 218, 0.5);
+            background: rgba(42, 93, 218, 0.15);
+        }
+
+        @media (max-width: 1024px) {
+            .main-content {
+                grid-template-columns: 1fr;
+                gap: 30px;
+                padding: 24px;
+            }
+
+            .game-hero {
+                max-width: 400px;
+                margin: 0 auto;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .header {
+                padding: 12px 16px;
+            }
+
+            .main-content {
+                gap: 20px;
+                padding: 16px;
+            }
+
+            .game-title {
+                font-size: 24px;
+            }
+
+            .play-section {
+                padding: 16px;
+            }
+
+            .game-hero {
+                aspect-ratio: 3/4;
+            }
+        }
+    </style>
 </head>
-<body data-sveltekit-preload-data="hover">
-<div style="display: contents;height: 100%">
+<body>
+    <div id="app"></div>
 
-  <!--[--><!--[--><!----><main class="svelte-12qhfyh"><!--[--><!--[--><!----><!----><!--[--><div class="overlay svelte-19kto5k"><div class="loader svelte-19kto5k"><div class="circle svelte-19kto5k"></div> <div class="cloud cloud1 svelte-19kto5k"></div> <div class="cloud cloud2 svelte-19kto5k"></div></div></div><!--]--> <div class="content svelte-19kto5k"><div class="back svelte-19kto5k"><div class="back-info svelte-19kto5k"><div style="width: 100%;align-items: center;display: flex;" class="svelte-19kto5k">❮ <span class="svelte-19kto5k"> Back</span> <img class="back-game-icon svelte-19kto5k hidden" alt="back-game-icon" src="https://play-lh.googleusercontent.com/iP2i_f23Z6I-5hoL2okPS4SxOGhj0q61Iyb0Y1m4xdTsbnaCmrjs7xKRnL6o5R4h-Yg=w240-h480-rw"/> <p class="svelte-19kto5k hidden">Genshin Impact</p></div> <div style="color: #ffffff;" class="svelte-19kto5k"><div class="logo svelte-4ke7i0"><img src="/images/logo.png" alt="CloudMoon" class="svelte-4ke7i0"/> <span class="svelte-4ke7i0">CloudMoon</span></div><!----></div></div></div> <div class="banner svelte-19kto5k"><div class="banner-slider svelte-19kto5k"><!--[--><div class="skeleton carousel svelte-19kto5k"></div><!--]--></div> <div class="banner-info svelte-19kto5k"><div class="game-warp svelte-19kto5k"><div class="game-info svelte-19kto5k"><div class="info-left svelte-19kto5k"><img alt="Genshin Impact" src="https://play-lh.googleusercontent.com/iP2i_f23Z6I-5hoL2okPS4SxOGhj0q61Iyb0Y1m4xdTsbnaCmrjs7xKRnL6o5R4h-Yg=w240-h480-rw" class="game-icon svelte-19kto5k"/></div> <div class="info-right svelte-19kto5k"><div class="game-name svelte-19kto5k">Genshin Impact</div> <div class="game-company svelte-19kto5k">Role Playing/Action Role-Playing</div></div></div> <div class="game-desc svelte-19kto5k"><h1 class="svelte-19kto5k"><!---->Play Genshin Impact instantly in browser without downloading. Enjoy lag-free, low latency, and high-quality gaming experience while playing this role playing game.<!----></h1> <br class="svelte-19kto5k"/> <!--[--><!---->Genshin Impact is a sprawling action-RPG that invites players into Teyvat — a hand-painted, anime-influenced open world where exploration and elemental combat are front and center. Instead of slow level grinds, the game encourages quick, reactive play: you swap between characters on the fly to trigger elemental reactions, solve environmental puzzles, and chase hidden rewards scattered across a visually rich map.<br><br>Underneath that accessible surface is a deep progression system. Characters are developed through leveling, weapons, and artifacts, while a stamina-like resource and timed challenges shape how and when you tackle high-value encounters. The game supports solo adventuring and light co-op, letting friends team up to clear bosses or explore together.<br><br>From launch the title was notable for bringing “AAA” presentation values to phones and PCs alike; critics applauded its production polish, the charm of its world and characters, and the satisfying chemistry of its combat, even as some reviews flagged pacing and monetization as sticking points. Those strengths helped Genshin carve out rapid commercial success and a dedicated player base worldwide.<br><br>Commercially, Genshin Impact quickly became one of the most lucrative mobile/PC games ever, generating blockbuster revenue in its early years and maintaining major earnings through regular content updates, characters, and seasonal events. Its live-service model pairs new regions and story chapters with rotating character banners that keep the ecosystem active.<br><br>Like any major live game, Genshin has evolved under scrutiny: regulators and industry watchers have pushed for clearer disclosures around loot-box mechanics and age-appropriate safeguards, leading to policy changes and additional protections in certain markets. Those developments illustrate how the game’s business model and cultural footprint continue to influence wider conversations about monetization in modern games.<br><br>Whether you come for the vistas, the puzzle-like encounters, or the rotating parade of characters, Genshin Impact blends exploration and character-driven combat into a long-running online experience — one that keeps growing with new content while constantly balancing accessibility and depth.<!----><!--]--></div> <!--[!--><div class="read-more-btn svelte-19kto5k"></div><!--]--></div> <div class="game-start svelte-19kto5k"><button disabled class="svelte-19kto5k"> </button></div></div></div> <!--[!--><!--]--> <!--[!--><!--]--> <!--[--><div style="padding-top: 50px;" class="svelte-19kto5k"><div style="color: white;padding-bottom: 12px;font-size: 17px;" class="svelte-19kto5k"><strong class="svelte-19kto5k">You may also like</strong></div> <main class="game-grid svelte-1k03mwj" style="--columns: 9"><!--[--><div class="game-card svelte-1k03mwj" data-id="com.HoYoverse.hkrpgoversea"><div class="game-icon svelte-1k03mwj"><!----><img src="https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Honkai_Star_Rail.webp" alt="Honkai: Star Rail" loading="lazy" class="svelte-1k03mwj"/><!----></div> <p class="game-title svelte-1k03mwj">Honkai: Star Rail</p></div><div class="game-card svelte-1k03mwj" data-id="com.kurogame.wutheringwaves.global"><div class="game-icon svelte-1k03mwj"><!----><img src="https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_wuthering_waves.webp" alt="Wuthering Waves" loading="lazy" class="svelte-1k03mwj"/><!----></div> <p class="game-title svelte-1k03mwj">Wuthering Waves</p></div><div class="game-card svelte-1k03mwj" data-id="com.HoYoverse.Nap"><div class="game-icon svelte-1k03mwj"><!----><img src="https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_zenless_zone_zero_new.webp" alt="Zenless Zone Zero" loading="lazy" class="svelte-1k03mwj"/><!----></div> <p class="game-title svelte-1k03mwj">Zenless Zone Zero</p></div><div class="game-card svelte-1k03mwj" data-id="com.devsisters.ck"><div class="game-icon svelte-1k03mwj"><!----><img src="https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_cookierun_kingdom.webp" alt="CookieRun: Kingdom" loading="lazy" class="svelte-1k03mwj"/><!----></div> <p class="game-title svelte-1k03mwj">CookieRun: Kingdom</p></div><div class="game-card svelte-1k03mwj" data-id="com.roblox.client"><div class="game-icon svelte-1k03mwj"><!----><img src="https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Roblox.webp" alt="Roblox" loading="lazy" class="svelte-1k03mwj"/><!----></div> <p class="game-title svelte-1k03mwj">Roblox</p></div><div class="game-card svelte-1k03mwj" data-id="com.netease.idv.googleplay"><div class="game-icon svelte-1k03mwj"><!----><img src="https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_identity_v.webp" alt="Identity V" loading="lazy" class="svelte-1k03mwj"/><!----></div> <p class="game-title svelte-1k03mwj">Identity V</p></div><div class="game-card svelte-1k03mwj" data-id="com.mobile.legends"><div class="game-icon svelte-1k03mwj"><!----><img src="https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Mobile_Legends_Bang_Bang.webp" alt="Mobile Legends: Bang Bang" loading="lazy" class="svelte-1k03mwj"/><!----></div> <p class="game-title svelte-1k03mwj">Mobile Legends: Bang Bang</p></div><div class="game-card svelte-1k03mwj" data-id="com.miHoYo.bh3oversea"><div class="game-icon svelte-1k03mwj"><!----><img src="https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Honkai_Impact_3.webp" alt="Honkai Impact 3" loading="lazy" class="svelte-1k03mwj"/><!----></div> <p class="game-title svelte-1k03mwj">Honkai Impact 3</p></div><div class="game-card svelte-1k03mwj" data-id="com.cygames.umamusume"><div class="game-icon svelte-1k03mwj"><!----><img src="https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Umamusume_Pretty_Derby.webp" alt="Umamusume: Pretty Derby" loading="lazy" class="svelte-1k03mwj"/><!----></div> <p class="game-title svelte-1k03mwj">Umamusume: Pretty Derby</p></div><!--]--></main><!----></div><!--]--> <div style="padding-top: 50px;" class="svelte-19kto5k"><div style="color: white;padding-bottom: 12px;font-size: 17px;" class="svelte-19kto5k"><strong class="svelte-19kto5k">FAQ</strong></div> <!--[!--><ul class="faq svelte-1t8i6y4"><li class="svelte-1t8i6y4"><div class="accordion active svelte-1t8i6y4">What is CloudMoon?</div> <div class="panel svelte-1t8i6y4"><p class="svelte-1t8i6y4"><!---->CloudMoon is a cloud-gaming / game-streaming service that lets you play games online without download. With one 15 MB app—or just your browser—you can fire up 200 + mobile and PC / AAA games (Genshin Impact, Fortnite, Roblox, etc.) on any Android, iOS, tablet, Chromebook, low-spec laptop or even a “potato-phone.” Graphics render on our global GPU servers (“mobile cloud gaming / cloud phone gaming”) and stream to you in real time.<!----></p></div></li> <li class="svelte-1t8i6y4"><div class="accordion svelte-1t8i6y4">Why choose CloudMoon instead of a local install?</div> <div class="panel svelte-1t8i6y4"><p class="svelte-1t8i6y4"><!----><strong>· Free-up storage / no memory</strong>: even a 32 GB phone can run 200+ games—games stay in the cloud.<br><strong>· Run high-graphics games on low-end phones</strong>: devices with 3-4 GB RAM stream up to 60 fps—no overheating.<br><strong>· Instant play</strong>: skip 10 GB + downloads and day-one patches.<br><strong>· Affordable cloud gaming</strong>: plans start at $4.99 month—far cheaper than buying new hardware and other cloud gaming services like Xbox Cloud Gaming, Geforce Now, PlayStation Plus and Now.gg.<br><strong>· No lag, no crash</strong>: edge servers in 22 locations cut latency below 55 ms.<!----></p></div></li> <li class="svelte-1t8i6y4"><div class="accordion svelte-1t8i6y4">Is CloudMoon secure?</div> <div class="panel svelte-1t8i6y4"><p class="svelte-1t8i6y4"><!---->Yes. We designed CloudMoon as an “always-on, zero-trust” platform. Traffic is TLS 1.3-encrypted; each user session runs in its own sandbox VM for isolation. We already serve paying players in 150 + countries without a single data-breach incident.<!----></p></div></li> <li class="svelte-1t8i6y4"><div class="accordion svelte-1t8i6y4">Why does HD sometimes look like SD?</div> <div class="panel svelte-1t8i6y4"><p class="svelte-1t8i6y4"><!---->HD raises stream bitrate—so you see sharper motion. When a frame is static, SD and HD look similar. If the whole stream seems blurry, check your connection stability: cloud gaming needs a more stable link than YouTube.<!----></p></div></li> <li class="svelte-1t8i6y4"><div class="accordion svelte-1t8i6y4">I have fast internet; why do I still lag or stutter?</div> <div class="panel svelte-1t8i6y4"><p class="svelte-1t8i6y4"><!---->Speed alone isn’t enough—low latency & steady ping matter more. Torrents, video downloads or crowded Wi-Fi can spike jitter. Switch to 5 GHz or wired, and pause any large downloads.<!----></p></div></li> <li class="svelte-1t8i6y4"><div class="accordion svelte-1t8i6y4">Can I request new games?</div> <div class="panel svelte-1t8i6y4"><p class="svelte-1t8i6y4"><!---->Absolutely. Post in our Discord or Reddit. We rank requests by popularity, technical compatibility and bug-free performance before adding them to the library.<!----></p></div></li> <li class="svelte-1t8i6y4"><div class="accordion svelte-1t8i6y4">I paid but didn’t receive Unlimited hours—what next?</div> <div class="panel svelte-1t8i6y4"><p class="svelte-1t8i6y4"><!---->Join our <a href="https://discord.gg/AG9HzE8xZ2" target="_blank">Discord</a> and DM <strong>@Aoko</strong> with your payment receipt.<!----></p></div></li> <li class="svelte-1t8i6y4"><div class="accordion svelte-1t8i6y4">Interested in collaborating with CloudMoon?</div> <div class="panel svelte-1t8i6y4"><p class="svelte-1t8i6y4"><!---->Join our <a href="https://discord.gg/AG9HzE8xZ2" target="_blank">Discord</a> and DM <strong>@Aoko</strong> to discuss partnership opportunities!<!----></p></div></li></ul><!--]--></div> <div class="footer svelte-jz8lnl"><div class="footer-menu svelte-jz8lnl"><div class="svelte-jz8lnl"><a href="/privacy-policy" target="_blank" class="svelte-jz8lnl">Privacy Policy</a></div> <div class="svelte-jz8lnl"><a href="/copyright-policy" target="_blank" class="svelte-jz8lnl">Copyright Policy</a></div> <div class="svelte-jz8lnl"><a href="/terms-and-conditions" target="_blank" class="svelte-jz8lnl">Terms &amp; Conditions</a></div></div> <div>Copyright © 2025 CloudMoon All rights reserved</div></div><!----></div><!----><!----><!----><!--]--><!--]--> <!--[!--><!--]--><!----> <!--[!--><!--]--><!----> <!--[!--><!--]--></main><!----><!--]--> <!--[!--><!--]--><!--]-->
-			<script type="application/json" data-sveltekit-fetched data-url="/data/games/en/com.miHoYo.GenshinImpact.json">{"status":200,"statusText":"","headers":{},"body":"{\n  \"images\": [\n    \"https://play-lh.googleusercontent.com/J36RfQIrI5B02G0etP85LtYETCB9VnbQWsbxTZtsI_FZdfsBEn_bd_3MQVgIlOC6mCs=w526-h296-rw\",\n    \"https://play-lh.googleusercontent.com/PJ7zpTX-qNmUMkGcwddS-aDYggJL2pKfG9O19jK4tsDJM7949v1xbkMgnG6EIbNxPus=w526-h296-rw\",\n    \"https://play-lh.googleusercontent.com/5SZvmPeZ3AVnqwm3lJ0mZnMHvaDNPaZc7aw7lAu0x9GTRhwouXANjCbfgRoJBnbG8SI=w526-h296-rw\",\n    \"https://play-lh.googleusercontent.com/B9ZMHlSZMde0Qse1sWPFJY2R5mF5IN0CcTlbR19M-UyXbAa8DGiwOBdNNJ-UV51dsy4=w526-h296-rw\",\n    \"https://play-lh.googleusercontent.com/TRt23jPV_kTYQGgoGKZ70XFAEc8_W3rx17lyjDOXdf_HyOoGTxgbFkFQpu2hs-Lavj-8=w526-h296-rw\"\n  ],\n  \"title\": \"Genshin Impact\",\n  \"icon\": \"https://play-lh.googleusercontent.com/iP2i_f23Z6I-5hoL2okPS4SxOGhj0q61Iyb0Y1m4xdTsbnaCmrjs7xKRnL6o5R4h-Yg=w240-h480-rw\",\n  \"subTitle\": \"Role Playing/Action Role-Playing\",\n  \"desc\": \"Genshin Impact is a sprawling action-RPG that invites players into Teyvat — a hand-painted, anime-influenced open world where exploration and elemental combat are front and center. Instead of slow level grinds, the game encourages quick, reactive play: you swap between characters on the fly to trigger elemental reactions, solve environmental puzzles, and chase hidden rewards scattered across a visually rich map.\u003Cbr>\u003Cbr>Underneath that accessible surface is a deep progression system. Characters are developed through leveling, weapons, and artifacts, while a stamina-like resource and timed challenges shape how and when you tackle high-value encounters. The game supports solo adventuring and light co-op, letting friends team up to clear bosses or explore together.\u003Cbr>\u003Cbr>From launch the title was notable for bringing “AAA” presentation values to phones and PCs alike; critics applauded its production polish, the charm of its world and characters, and the satisfying chemistry of its combat, even as some reviews flagged pacing and monetization as sticking points. Those strengths helped Genshin carve out rapid commercial success and a dedicated player base worldwide.\u003Cbr>\u003Cbr>Commercially, Genshin Impact quickly became one of the most lucrative mobile/PC games ever, generating blockbuster revenue in its early years and maintaining major earnings through regular content updates, characters, and seasonal events. Its live-service model pairs new regions and story chapters with rotating character banners that keep the ecosystem active.\u003Cbr>\u003Cbr>Like any major live game, Genshin has evolved under scrutiny: regulators and industry watchers have pushed for clearer disclosures around loot-box mechanics and age-appropriate safeguards, leading to policy changes and additional protections in certain markets. Those developments illustrate how the game’s business model and cultural footprint continue to influence wider conversations about monetization in modern games.\u003Cbr>\u003Cbr>Whether you come for the vistas, the puzzle-like encounters, or the rotating parade of characters, Genshin Impact blends exploration and character-driven combat into a long-running online experience — one that keeps growing with new content while constantly balancing accessibility and depth.\"\n}"}</script>
-			<script type="application/json" data-sveltekit-fetched data-url="/data/recommend/en/com.miHoYo.GenshinImpact.json">{"status":200,"statusText":"","headers":{},"body":"[\n  {\n    \"id\": \"com.HoYoverse.hkrpgoversea\",\n    \"title\": \"Honkai: Star Rail\",\n    \"image\": \"https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Honkai_Star_Rail.webp\",\n    \"status\": 1,\n    \"is_high\": false,\n    \"disabled\": false,\n    \"is_pc\": false\n  },\n  {\n    \"id\": \"com.kurogame.wutheringwaves.global\",\n    \"title\": \"Wuthering Waves\",\n    \"image\": \"https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_wuthering_waves.webp\",\n    \"status\": 1,\n    \"is_high\": false,\n    \"disabled\": false,\n    \"is_pc\": false\n  },\n  {\n    \"id\": \"com.HoYoverse.Nap\",\n    \"title\": \"Zenless Zone Zero\",\n    \"image\": \"https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_zenless_zone_zero_new.webp\",\n    \"status\": 1,\n    \"is_high\": false,\n    \"disabled\": false,\n    \"is_pc\": false\n  },\n  {\n    \"id\": \"com.devsisters.ck\",\n    \"title\": \"CookieRun: Kingdom\",\n    \"image\": \"https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_cookierun_kingdom.webp\",\n    \"status\": 1,\n    \"is_high\": false,\n    \"disabled\": false,\n    \"is_pc\": false\n  },\n  {\n    \"id\": \"com.roblox.client\",\n    \"title\": \"Roblox\",\n    \"image\": \"https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Roblox.webp\",\n    \"status\": 1,\n    \"is_high\": false,\n    \"disabled\": false,\n    \"is_pc\": false\n  },\n  {\n    \"id\": \"com.netease.idv.googleplay\",\n    \"title\": \"Identity V\",\n    \"image\": \"https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_identity_v.webp\",\n    \"status\": 1,\n    \"is_high\": false,\n    \"disabled\": false,\n    \"is_pc\": false\n  },\n  {\n    \"id\": \"com.mobile.legends\",\n    \"title\": \"Mobile Legends: Bang Bang\",\n    \"image\": \"https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Mobile_Legends_Bang_Bang.webp\",\n    \"status\": 1,\n    \"is_high\": false,\n    \"disabled\": false,\n    \"is_pc\": false\n  },\n  {\n    \"id\": \"com.miHoYo.bh3oversea\",\n    \"title\": \"Honkai Impact 3\",\n    \"image\": \"https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Honkai_Impact_3.webp\",\n    \"status\": 1,\n    \"is_high\": false,\n    \"disabled\": false,\n    \"is_pc\": false\n  },\n  {\n    \"id\": \"com.cygames.umamusume\",\n    \"title\": \"Umamusume: Pretty Derby\",\n    \"image\": \"https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Umamusume_Pretty_Derby.webp\",\n    \"status\": 1,\n    \"is_high\": false,\n    \"disabled\": false,\n    \"is_pc\": false\n  },\n  {\n    \"id\": \"com.papegames.lysk.en\",\n    \"title\": \"Love and Deepspace\",\n    \"image\": \"https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Love_and_Deepspace.webp\",\n    \"status\": 1,\n    \"is_high\": false,\n    \"disabled\": false,\n    \"is_pc\": false\n  },\n  {\n    \"id\": \"com.bluepoch.m.en.reverse1999\",\n    \"title\": \"Reverse: 1999\",\n    \"image\": \"https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_reverse_1999.webp\",\n    \"status\": 1,\n    \"is_high\": false,\n    \"disabled\": false,\n    \"is_pc\": false\n  },\n  {\n    \"id\": \"com.infoldgames.infinitynikkien\",\n    \"title\": \"Infinity Nikki\",\n    \"image\": \"https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Infinity_Nikki.webp\",\n    \"status\": 1,\n    \"is_high\": false,\n    \"disabled\": false,\n    \"is_pc\": false\n  },\n  {\n    \"id\": \"com.mobilechess.gp\",\n    \"title\": \"Magic Chess: Go Go\",\n    \"image\": \"https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Magic_Chess_Go_Go.webp\",\n    \"status\": 1,\n    \"is_high\": false,\n    \"disabled\": false,\n    \"is_pc\": false\n  },\n  {\n    \"id\": \"com.proximabeta.nikke\",\n    \"title\": \"GODDESS OF VICTORY: NIKKE\",\n    \"image\": \"https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Goddess_of_Victory.webp\",\n    \"status\": 1,\n    \"is_high\": false,\n    \"disabled\": false,\n    \"is_pc\": false\n  },\n  {\n    \"id\": \"com.nexon.bluearchive\",\n    \"title\": \"Blue Archive\",\n    \"image\": \"https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_blue_archive.webp\",\n    \"status\": 1,\n    \"is_high\": false,\n    \"disabled\": false,\n    \"is_pc\": false\n  },\n  {\n    \"id\": \"com.levelinfinite.sgameGlobal\",\n    \"title\": \"Honor of Kings\",\n    \"image\": \"https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_honor_of_kings.webp\",\n    \"status\": 1,\n    \"is_high\": false,\n    \"disabled\": false,\n    \"is_pc\": false\n  },\n  {\n    \"id\": \"com.netease.harrypotter.na\",\n    \"title\": \"Harry Potter: Magic Awakened™\",\n    \"image\": \"https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Harry_Potter_Magic_Awakened.webp\",\n    \"status\": 1,\n    \"is_high\": false,\n    \"disabled\": false,\n    \"is_pc\": false\n  },\n  {\n    \"id\": \"com.kurogame.gplay.punishing.grayraven.en\",\n    \"title\": \"Punishing: Gray Raven\",\n    \"image\": \"https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Punishing_Gray_Raven.webp\",\n    \"status\": 1,\n    \"is_high\": false,\n    \"disabled\": false,\n    \"is_pc\": false\n  },\n  {\n    \"id\": \"jp.konami.masterduel\",\n    \"title\": \"Yu-Gi-Oh! Master Duel\",\n    \"image\": \"https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_master_duel.webp\",\n    \"status\": 1,\n    \"is_high\": false,\n    \"disabled\": false,\n    \"is_pc\": false\n  },\n  {\n    \"id\": \"com.YoStarEN.Arknights\",\n    \"title\": \"Arknights\",\n    \"image\": \"https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Arknights.webp\",\n    \"status\": 1,\n    \"is_high\": false,\n    \"disabled\": false,\n    \"is_pc\": false\n  },\n  {\n    \"id\": \"com.archosaur.sea.yslzm.gp\",\n    \"title\": \"Life Makeover\",\n    \"image\": \"https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Life_Makeover.webp\",\n    \"status\": 1,\n    \"is_high\": false,\n    \"disabled\": false,\n    \"is_pc\": false\n  },\n  {\n    \"id\": \"com.garena.game.df\",\n    \"title\": \"Garena® Delta Force\",\n    \"image\": \"https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Garena_Delta_Force.webp\",\n    \"status\": 1,\n    \"is_high\": false,\n    \"disabled\": false,\n    \"is_pc\": false\n  },\n  {\n    \"id\": \"sea.com.iwplay.p5x\",\n    \"title\": \"Persona5: The Phantom X™\",\n    \"image\": \"https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Persona5_The_Phantom.webp\",\n    \"status\": 1,\n    \"is_high\": false,\n    \"disabled\": false,\n    \"is_pc\": false\n  }\n]"}</script>
-			<script>
-				{
-					__sveltekit_d77a9n = {
-						base: new URL("../..", location).pathname.slice(0, -1)
-					};
+    <script>
+        const gameData = {
+            'com.miHoYo.GenshinImpact': {
+                title: 'Genshin Impact',
+                emoji: '🌟',
+                category: 'Action RPG',
+                description: 'Explore the vast world of Teyvat in this stunning open-world action RPG. Experience elemental combat, solve puzzles, and uncover secrets in a hand-painted anime world.',
+                features: [
+                    '📱 Play instantly on any device',
+                    '⚡ Zero lag, zero download needed',
+                    '🎮 Full gameplay without 30 min limit',
+                    '🌍 Available worldwide'
+                ]
+            }
+        };
 
-					const element = document.currentScript.parentElement;
+        const currentGame = 'com.miHoYo.GenshinImpact';
+        const game = gameData[currentGame];
 
-					Promise.all([
-						import("../../_app/immutable/entry/start.CyFArhgz.js"),
-						import("../../_app/immutable/entry/app.yJDyIo4F.js")
-					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 2, 4],
-							data: [null,null,null],
-							form: null,
-							error: null
-						});
-					});
-				}
-			</script>
-		
+        document.getElementById('app').innerHTML = `
+            <div class="header">
+                <a href="/" class="back-button">← Back to Games</a>
+                <div class="logo">
+                    <div class="logo-icon">🌙</div>
+                    CloudMoon
+                </div>
+            </div>
 
-</div>
+            <div class="main-content">
+                <div class="game-info-section">
+                    <div class="game-hero">${game.emoji}</div>
+                    <div class="game-details">
+                        <h1 class="game-title">${game.title}</h1>
+                        <div class="game-meta">
+                            <div class="meta-badge">${game.category}</div>
+                            <div class="meta-badge">✨ Free to Play</div>
+                        </div>
+                        <p class="game-description">${game.description}</p>
+                        <div class="game-features">
+                            ${game.features.map(f => `<div class="feature-item"><span class="feature-icon">${f.charAt(0)}</span><span class="feature-text">${f.slice(2)}</span></div>`).join('')}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="play-section">
+                    <div class="play-title">Ready to Play?</div>
+                    <div class="play-status">✓ Ready to Launch</div>
+                    <button class="play-button" onclick="alert('Launching game...')">Play Now</button>
+                    <div class="screenshots">
+                        <div class="screenshots-title">Screenshots</div>
+                        <div class="screenshot-carousel">
+                            <div class="screenshot-item">Screenshot 1</div>
+                            <div class="screenshot-item">Screenshot 2</div>
+                            <div class="screenshot-item">Screenshot 3</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    </script>
 </body>
 </html>
